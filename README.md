@@ -17,12 +17,12 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Desenvolvi uma página web profissional como portifólio para aplicar meus conhecimentos, inicialmente a página contém minhas informações de contato e currículo, mas a ideia é ir desenvolvendo, acrescentando novidades e conforme vou aprendendo, acrescentando linguagens.
+  Desenvolvi uma página web profissional como portfólio para aplicar meus conhecimentos, inicialmente a página contém minhas informações de contato e currículo, mas a ideia é ir desenvolvendo, acrescentando novidades e conforme vou aprendendo, acrescentando linguagens.
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Portifólio 
+:heavy_check_mark: Portfólio 
 
 :heavy_check_mark: Currículo Profissional  
 
