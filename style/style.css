@@ -106,8 +106,6 @@ body {
 .home__acesse__curriculo {
     background-color: var(--cor-tercearia);
     padding: 5em 8em;
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .home__apresentacao__curriculo__titulo {
