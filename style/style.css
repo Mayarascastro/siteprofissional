@@ -22,21 +22,22 @@ body {
     "cabecalho" 
     "conteudo" 
     "rodape";
+    overflow: auto;
 }
 
 .cabecalho{
     grid-area: "cabecalho";
     background-color: var(--cor-primaria);
-    box-shadow: 0 0 5px var(--cor-quatenaria), 0 0 10px var(--cor-quatenaria), 0 0 15px var(--cor-quatenaria);
+    box-shadow: 0 0 0.3rem var(--cor-quatenaria), 0 0 0.6rem var(--cor-quatenaria), 0 0 0.9rem var(--cor-quatenaria);
     padding: 1.3em;
     position: sticky;
-    top: 0px; 
+    top: 0em; 
 }
 
 .cabecalho__img {
     position: fixed;
-    top: 1px;
-    left: 10px;
+    top: 0.1rem;
+    left: 0.6rem;
 }
 
 .cabecalho__menu {
@@ -63,10 +64,8 @@ body {
 .home__capa {
     grid-area: "conteudo";
     background-image: url("../assets/Foto\ fundo.png");
-    box-sizing: content-box; 
-    /* Testar background-size: contain; no lugar de box-sizing ou background-size: 100%; se no celular ficar cortando a imagem */
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
 }
 
 .home__capa__conteudo {
@@ -80,7 +79,7 @@ body {
     font-family: var(--fonte-primaria);
     font-size: 1.2rem;
     color: var(--cor-primaria);
-    letter-spacing: 8px;
+    letter-spacing: 0.5rem;
 }
 
 .home__capa__titulo__destaque {
@@ -88,7 +87,7 @@ body {
     color: var(--cor-primaria);
     font-size: 1.5rem;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 0.1rem;
 }
 
 .home__apresentacao {
@@ -133,11 +132,11 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    border: 0.1rem solid var(--cor-primaria);
     background: var(--cor-tercearia);
     text-decoration: none;    
-    letter-spacing: 2px;
-    padding: 1em;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
 }
 
 .home__botao__acesse__curriculo:hover {
@@ -148,8 +147,6 @@ body {
 .home__acesse__contatos {
     background-color: var(--cor-quatenaria);
     padding: 5em 8em;
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .home__acesse__contatos__titulo {
@@ -173,22 +170,17 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--cor-primaria);
-    border: 2px transparent;
+    border: 0.1rem transparent;
     background: var(--cor-tercearia);
     text-decoration: none;    
-    letter-spacing: 2px;
+    letter-spacing: 0.1rem;
     padding: 1em;
 }
 
 .home__botao__acesse__contatos:hover {
     color: var(--cor-tercearia);
-    border: 2px solid var(--cor-tercearia);
+    border: 0.1rem solid var(--cor-tercearia);
     background: transparent;
-}
-
-.home__img {
-    width: 40%;
-    padding: 2em 15em;
 }
 
 .curriculo__capa{
@@ -268,18 +260,18 @@ body {
 
 .contato__capa {
     background: linear-gradient(#dddcdc, #f5f5f5);
-    padding: 10em;
+    padding: 10rem;
 }
 
 .contato__capa__titulo {
     font-family: var(--fonte-primaria);
     font-size: 2rem;
     font-weight: 500; 
-    padding: 0 0 0 20em;
+    text-align: end;
 }
 
 .contato__info {
-    padding: 11em 5em;
+    padding: 11em;
     display: flex;
     justify-content: space-evenly;
     list-style: none; 
@@ -361,4 +353,22 @@ body {
 
 .rodape__menu__link:hover {
     color: var(--cor-quintenaria);
+}
+
+@media screen and (max-width: 1200px) {
+    .contato__info {
+        display: block;
+    }
+
+    .contato__info__email {
+        padding: 2em;
+    }
+
+    .contato__info__tel {
+        padding: 0 2em;
+    }
+
+    .contato__info__redes {
+        padding: 2em;
+    }
 }
