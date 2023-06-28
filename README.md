@@ -6,7 +6,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :warning: Em desenvolvimento :warning:
+> Status do Projeto: Em desenvolvimento :warning:
 
 ### Tópicos 
 
@@ -31,5 +31,5 @@
 ## Layout :dash:
 
 > Para abrir o projeto, acesse: (https://mayarascastro.github.io/siteprofissional/index.html)
-Página principal:
+<p> Página principal: </p>
  <img src="https://github.com/Mayarascastro/siteprofissional/blob/main/sitepessoal.PNG"/>
