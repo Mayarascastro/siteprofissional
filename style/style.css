@@ -75,13 +75,6 @@ body {
     text-align: start;
 }
 
-.home__capa__titulo {
-    font-family: var(--fonte-primaria);
-    font-size: 1.2rem;
-    color: var(--cor-primaria);
-    letter-spacing: 0.5rem;
-}
-
 .home__capa__titulo__destaque {
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
@@ -101,6 +94,13 @@ body {
     font-family: var(--fonte-primaria);
     font-size: 3em;
     font-weight: 700;
+}
+
+.home__apresentacao__titulo__conteudo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.1rem;
+    color: var(--cor-tercearia);
+    text-align: center;
 }
 
 .home__acesse__curriculo {
